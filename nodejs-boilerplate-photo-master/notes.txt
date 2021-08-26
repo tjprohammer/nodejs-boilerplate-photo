@@ -1,0 +1,27 @@
+Setup:
+npm install typescript -g
+npm install --save-dev tslint
+npm install --save-dev @babel/preset-typescript @babel/core @babel/node @babel/preset-env @babel/cli nodemon 
+npm i concurrently --save
+	("start": "concurrently \"command1 arg\" \"command2 arg\"")
+npm i dotenv
+npm i--save aws-sdk
+npm i --save uuid
+npm install body-parser
+npm i -D @types/mongodb @types/mongoose
+
+
+Ubunutu 20.04
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+	sudo apt-get install -y nodejs
+	node -v
+	npm -v
+	npm init -y
+	mkdir server
+	npm install express --save
+	npx create-react-app client
+	create index.ts
+	npm install aws-sdk
+	mkdir node-express
+	cd node-express
+	export PATH=$PATH:/usr/local/share/npm/bin/express
